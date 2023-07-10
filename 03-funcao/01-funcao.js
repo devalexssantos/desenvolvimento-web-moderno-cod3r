@@ -1,6 +1,6 @@
 //Função literal
-function soma(a, b) {
-    return a + b;
+function imprimirNome(nome) {
+    return `Olá, meu nome é: ${nome}`;
 }
 
-console.log(soma(1, 1));
+console.log(imprimirNome('Alex'));
