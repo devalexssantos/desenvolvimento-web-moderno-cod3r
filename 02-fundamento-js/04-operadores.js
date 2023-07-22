@@ -60,3 +60,11 @@ console.log(a++); //Ele muda o valor depois da execução
 console.log(a); //Aqui já será alterado
 //A forma pré-fixada tem precedencia sobre a pós-fixada
 
+//TERNÁRIO
+let parOuImpar = numero => numero % 2 === 0 ? 'Par' : 'Impar';
+console.log(parOuImpar(2));
+console.log(parOuImpar(3));
+
+let nota = 9;
+let resultado = nota >= 7 ? 'Aprovado' : 'Reprovado';
+console.log(resultado);
